@@ -9,7 +9,7 @@ function delay(ms: number) {
 export async function POST({request}) {
     const { contactMail, contactName, informationAboutProject } = await request.json();
 
-    if (!contactMail || !contactName || !informationAboutProject || true) {
+    if (!contactMail || !contactName || !informationAboutProject) {
         return json({ message: "Could not send email. Missing data." }, {status: 400} );
     }
 

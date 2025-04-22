@@ -58,7 +58,7 @@
                 <h3>Sending off the contact form...</h3>
             </div>
         {:else if showErrorMessage}
-            <h3>We seem to have trouble with our server at the moment. Please send me an email directl to <a class="link" href="mailto:zigsim1@gmail.com">zigsim1@gmail.com</a></h3>
+            <h3>We seem to have trouble with our server at the moment. Please send me an email directly to <a class="link" href="mailto:zigsim1@gmail.com">zigsim1@gmail.com</a></h3>
         {:else}
             <form>
                 <input class="text-input mb-m" class:input-error={isFormInvalid && !Boolean(contactName.length)} placeholder="Your Name" bind:value={contactName} />
