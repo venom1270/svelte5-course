@@ -11,7 +11,7 @@
             Create your very own digital library where you can keep track of every game you own, play and love.
         </h4>
         <h4 class="mb-s">
-            Our app offers a beautifully designed, easy-to-use interface that makes managing your game collectiona joy
+            Our app offers a beautifully designed, easy-to-use interface that makes managing your game collection a joy
         </h4>
         <Button href="/register">Sign Up</Button>
     </div>

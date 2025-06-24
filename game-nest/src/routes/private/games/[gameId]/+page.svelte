@@ -70,7 +70,7 @@
 
 {#snippet gameInfo()}
 <h2 class="game-title mt-m">{game.title}</h2>
-<p class="book-author">by {game.developer}</p>
+<p class="game-developer">by {game.developer}</p>
 <h4 class="mt-m mb-xs semi-bold">Your rating</h4>
 <StarRating value={game.rating || 0} {updateDatabaseRating} />
 <p class="small-font">
