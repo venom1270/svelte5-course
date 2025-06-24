@@ -11,7 +11,7 @@
 </script>
 
 <header>
-    <a href="/">
+    <a href={user ? "/private/dashboard" : "/"}>
         <img class="logo" src={logo} alt="Go to home" />
     </a>
     <nav>
